@@ -34,4 +34,29 @@ function writeToFile(fileName, answers){
     });
 }
 
+//Prompts for the user to choose shape and color
+function promptUser(){
+    inquirer.prompt([
 
+        {type: "input",
+        Massage:"What text would you like inside your logo?(Please enter up to three characters)",
+        name: "text", 
+},
+
+{type: "input",
+message: "What color text would you like you logo to be?",
+name: "textColor",
+},
+
+{type:"list",
+massage:"What shape would you like your logo to be?",
+choices:["circle", "square", "triangle"],
+name: "shape",
+},
+
+{type: "input",
+massage:"what color would you the background to be?",
+name: "shapeBackgroundColor",
+},
+    ])
+}
