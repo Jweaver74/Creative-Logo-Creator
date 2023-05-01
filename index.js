@@ -18,13 +18,13 @@ function writeToFile(fileName, answers) {
     svgString += `<circle cx="150" cy="115" r="80" fill="${answers.shapeBackgroundColor}"/>`;
   } else if (answers.shape === "square") {
     shapeChoice = new Square();
-    svgString += `<rect x="73" y="40" width="154" height="154" fill="${answers.shapeBackgroundColor}"/>`;
+    svgString += `<rect x="73" y="40" width="150" height="150" fill="${answers.shapeBackgroundColor}"/>`;
   } else {
     shapeChoice = new Triangle();
-    svgString += `<polygon points="150,40 73,250 227,250" fill="${answers.shapeBackgroundColor}"/>`;
+    svgString += `<polygon points="150,18 244, 182  56, 182" fill="${answers.shapeBackgroundColor}"/>`;
   }
   //text alignment
-  svgString += `<text x="150" y="150" font-size="35" fill="${answers.textColor}" text-anchor="middle">${answers.text}</text>`;
+  svgString += `<text x="150" y="130" font-size="40" text-anchor="middle" fill="${answers.textColor}">${answers.text}</text>`;
   svgString += "</g>";
   svgString += "</svg>";
 
@@ -38,7 +38,7 @@ function promptUser() {
   inquirer.prompt([
     {
       type: "input",
-      Massage:
+      message:
         "What text would you like inside your logo?(Please enter up to three characters)",
       name: "text",
     },
@@ -59,7 +59,7 @@ function promptUser() {
 
     {
       type: "input",
-      massage:
+      message:
         "what color would you the background to be?(Color keyword or a hexadecimal number)",
       name: "shapeBackgroundColor",
     },
