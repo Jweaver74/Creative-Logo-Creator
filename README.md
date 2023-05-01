@@ -40,6 +40,10 @@
   As a freelance wed developer, i want to generate a simple logo for my projects so that i dont have to pay a grapgic designer.
 
   ## LiveLink
+  https://drive.google.com/file/d/1elgwCu3h66O-lCjqoswSZmDwt83RpeIE/view
+
+  ## ScreenShot
+  ![ScreenShot](./examples/orange%20triangle.png)
   
 
 
@@ -61,7 +65,7 @@
 
 
   ## Challenge
-  Creating the SVG shapes and colors within node. Having to creat e the testing before the index.js was created. 
+  Creating the SVG shapes and colors within node. Having to create the testing before the index.js was created. Getting the position of the text within the shape.
 
 
   ## GitHub
