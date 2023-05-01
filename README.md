@@ -37,7 +37,7 @@
 
 
   ## Usage
-  As a freelance wed developer, i want to generate a simple logo for my projects so that i dont have to pay a grapgic designer.
+  As a freelance wed developer, i want to generate a simple logo for my projects so that i don't have to pay a graphic designer.
 
   ## LiveLink
   https://drive.google.com/file/d/1elgwCu3h66O-lCjqoswSZmDwt83RpeIE/view
@@ -52,7 +52,7 @@
 
 
   ## Installation
-  Clone the repo to your desktop and load within VScode. Run the node inde.js command from the terminal and answer the questions. Next open the created SVG file for your logo.
+  Clone the repo to your desktop and load within VScode. Run the node index.js command from the terminal and answer the questions. Next open the created SVG file for your logo.
 
 
   ## Tests
